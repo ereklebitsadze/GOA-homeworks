@@ -1,0 +1,35 @@
+body {
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+  color: #004d40;
+}
+
+header {
+  background-color: #00695c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

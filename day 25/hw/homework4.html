@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> /* ძირითადი ცხრილის სტილი */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* სათაურის უჯრედები */
+th {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* ჩვეულებრივი უჯრედები */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* ჩაშენებული ცხრილის სტილი */
+td table {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+td table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 13px;
+  background-color: #f0f4f8;
+}
+
+/* ჰოვერის ეფექტი */
+tr:hover {
+  background-color: #eef6ff;
+}
+
+</style>
+
+</head>
+<body>
+    
+<table border="1">
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+  </tr>
+  <tr>
+    <td>Row 1, Col 1</td>
+    <td>
+      <table border="1">
+        <tr>
+          <td>Table</td>
+          <td>nested</td>
+        </tr>
+        <tr>
+          <td>in a</td>
+          <td>cell</td>
+        </tr>
+      </table>
+    </td>
+    <td>Row 1, Col 3</td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

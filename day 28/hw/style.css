@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.models {
+  padding: 2rem;
+  background-color: #1a1a1a;
+}
+
+.models ul {
+  list-style: none;
+  padding: 0;
+}
+
+.models li {
+  margin-bottom: 1rem;
+  border-left: 4px solid #888;
+  padding-left: 1rem;
+}
+

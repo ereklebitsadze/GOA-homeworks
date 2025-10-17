@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+}
+.btn {
+  border: 1px solid black;
+}

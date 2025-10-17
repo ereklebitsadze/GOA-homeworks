@@ -1,0 +1,12 @@
+.color-box {
+  background-color: #e0f7fa; /* ღია ცისფერი */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.child {
+  background-color: #ffecb3; /* ღია ყვითელი */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}

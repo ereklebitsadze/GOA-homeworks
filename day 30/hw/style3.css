@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fffacd;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.child {
+  background: #e0ffff;
+  margin-bottom: 10px;
+  padding: 10px;
+}

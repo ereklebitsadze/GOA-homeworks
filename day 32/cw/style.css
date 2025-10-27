@@ -1,0 +1,59 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #1e1e2f;
+  color: #e0d7ff;
+  padding: 20px;
+}
+.bg-box {
+  background-image: url(./assets/video/pics/u9dex2t6fr581.png), url(./assets/video/pics/lelouch-lamperouge-1920x1200-10521.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px, cover;
+  background-position-x: 75%, 0%;
+  background-position-y: 45%, 0%;
+  border-style: none, ridge;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+/* Headings */
+h1 {
+  color: #c084fc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #a78bfa;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-shadow: 0px 0px 20px purple;
+}
+
+/* Video styling */
+video {
+  margin: 0 auto 20px auto;
+  border: 2px solid #a78bfa;
+  border-radius: 6px;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 30px 0;
+}

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-linear{
+    background-image: linear-gradient(67deg, rgb(13, 98, 255), rgb(255, 251, 6));
+    height: 100vh;
+    width: 100%;
+}

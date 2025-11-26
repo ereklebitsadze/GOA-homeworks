@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-font {
+  font-family: "Roboto", "Noto Sans Georgian", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  font-style: oblique;
+  font-variant-caps: small-caps;
+}

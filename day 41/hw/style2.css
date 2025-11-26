@@ -1,0 +1,28 @@
+.container {
+  display: flex;          /* ჰორიზონტალური განლაგება */
+  justify-content: center;/* ცენტრში განთავსება */
+  align-items: center;    /* ვერტიკალურად გასწორება */
+  gap: 20px;              /* ბლოკებს შორის დაშორება */
+  margin-top: 50px;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}

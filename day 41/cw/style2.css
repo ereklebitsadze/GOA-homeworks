@@ -1,0 +1,10 @@
+.parent {
+  display: flex;   
+  gap: 20px;     
+}
+
+.child {
+  width: 500px;
+  height: 500px;
+  background-color: lightblue; 
+}

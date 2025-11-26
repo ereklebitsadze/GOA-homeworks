@@ -1,0 +1,24 @@
+.container {
+  display: flex;          /* ბლოკები გვერდიგვერდ */
+  justify-content: center;/* ცენტრში განთავსება */
+  align-items: center;
+  gap: 15px;              /* ბლოკებს შორის დაშორება */
+  margin-top: 50px;
+}
+
+.block {
+  width: 60px;
+  height: 60px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}

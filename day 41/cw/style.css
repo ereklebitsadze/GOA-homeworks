@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div1 {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+.div2 {
+  width: 50%;
+  height: 50%;
+  background-image: linear-gradient(to bottom, blue, green);
+}
+
+.div3 {
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(45deg, purple, pink);
+}
+
+.div4 {
+  width: 2rem;
+  height: 2rem;
+  background-image: linear-gradient(to left, orange, brown);
+}

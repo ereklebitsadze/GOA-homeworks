@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    display: flex;
+    justify-content: end;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 3, 3);
+}
